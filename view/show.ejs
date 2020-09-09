@@ -1,0 +1,29 @@
+<%- include ('partials/header.ejs') %>- 
+
+<link rel="stylesheet" type="text/css" href="/Stylesheet/show_data.css">
+    <div class="container">
+        <h1>Todo Record Of Task</h1>
+        <table >
+            <tr>
+                <td class="bold">Id</td>
+                <td class="bold">Name</td>
+                <td class="bold">Description</td>
+                <td class="bold">Creator</td>
+                <td class="bold">Duration</td>
+                <td class="bold">Created_At</td>
+            </tr>
+          <%  record.forEach(function(task){ %>
+            <tr>
+                    <td><%= task.pid %></td>
+                    <td><%= task.name %></td>
+                    <td><%= task.description %></td>
+                    <td><%= task.creator %></td>
+                    <td><%= task.duration %></td>
+                    <td><%= task.createdAt.toDateString() %></td>
+                   
+            </tr>
+           <% }) %>
+            
+        </table>
+    </div>
+<%- include ('partials/footer.ejs') %>- 

@@ -1,0 +1,28 @@
+<%- include ('partials/header.ejs') %>-
+        <link rel="stylesheet" type="text/css" href="/Stylesheet/homeForm.css">
+                <div class="imageData">
+                 
+                  <h1>Provide Information In Todo List</h1>
+                  <form action="/show_data" method="POST">
+                      
+                      <label><i class="fa fa-user" aria-hidden="true"style="margin-right: 3px;"></i>Task-Id</label>
+                      <input type="text" name="id1" placeholder="Enter Task Id" required>
+                      
+                      <label><i class="fa fa-user-plus" aria-hidden="true"style="margin-right: 3px;"></i>Name</label>
+                      <input type="text" name="name" placeholder="Enter Name Of Task" required>
+                      <label><i class="fa fa-user-plus" aria-hidden="true"style="margin-right: 3px;"></i>Description</label>
+                      <input type="text" name="description" placeholder="Enter Some Description" required>
+                      <label><i class="fa fa-user-plus" aria-hidden="true"style="margin-right: 3px;"></i>Creator</label>
+                      <input type="text" name="creator" placeholder="Enter Name Of Creator" required>
+                      <label><i class="fa fa-user-plus" aria-hidden="true"style="margin-right: 3px;"></i>Duration</label>
+                      <input type="text" name="duration" placeholder="Enter Duration In Seconds" required>
+                      
+                      
+                      <input type="submit"  value="Submit">
+                      
+                      
+                     
+                  </form>
+              </div>
+              
+  <%- include ('partials/footer.ejs') %>-

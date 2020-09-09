@@ -1,0 +1,24 @@
+{
+  "name": "board-infinity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Swarnim Anand",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cron": "^1.8.2",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.3",
+    "node-cron": "^2.0.3",
+    "reject": "0.0.1"
+  }
+}

@@ -1,0 +1,111 @@
+body{
+    background:url("https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a157512b9893a4d_24.%20Sky%20Blue.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Lora;
+    margin-left:auto;
+    margin-right:auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: fixed-top;
+    overflow-x: hidden;
+    opacity: 1;
+}
+.imageData{
+    width: 600px;
+    height: 700px;
+    background:url("https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a15757152893aa7_70.%20Honeydew.jpg");
+    color: rgb(22, 21, 21);
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin:56px auto;
+    border-radius: 2em;
+    
+}
+
+
+h1{
+    margin-top: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size:2.3em;
+    color: rgb(5, 5, 5);
+    font-weight: bolder;
+}
+
+.imageData label{
+    margin-bottom:4px;
+    padding: 0;
+    font-weight: normal;
+}
+
+.imageData input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.imageData input[type="text"]{
+    border: none;
+    border-bottom: 1px solid rgb(10, 10, 10);
+    border-top:0.4px solid rgb(199, 196, 196);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:rgb(5, 5, 5);
+    font-size : 18px;
+    border-radius: 1.5em;
+    padding: 1em;
+    background-color: rgba(248, 251, 252, 0.966);
+}
+.imageData input[type="number"]{
+    border: none;
+    border-bottom: 1px solid rgb(10, 10, 10);
+    border-top:0.4px solid rgb(199, 196, 196);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:rgb(5, 5, 5);
+    font-size : 18px;
+    border-radius: 1.5em;
+    padding: 1em;
+    background-color: rgba(248, 251, 252, 0.966);
+}
+.imageData  input[type="text"]:hover{
+    height:45px;
+    width: 100%;
+    box-shadow:  0px 0px 6px 6px rgb(245, 243, 243);
+
+}
+.imageData  input[type="number"]:hover{
+    height:45px;
+    width: 100%;
+    box-shadow:  0px 0px 6px 6px rgb(245, 243, 243);
+
+}
+.imageData input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+    color:#fff;
+    font-size : 18px;
+    border-radius:20px;
+    box-shadow: 0px 0px 5px 5px rgba(198, 220, 231, 0.911);
+}
+/* .btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%)} */
+/* .btn-grad:hover { background-position: right center; } */
+.imageData input[type="submit"]:hover{
+     cursor:pointer;
+    /* background: #ffc107;
+    color:#000; 
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%); */
+    background-position: right center; 
+   
+    
+}
+
+
